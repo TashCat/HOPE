@@ -1,8 +1,6 @@
 package nl.patrick.HOPE.Module;
 
-import nl.patrick.HOPE.Module.Modules.Arraylist;
-import nl.patrick.HOPE.Module.Modules.DiscordRPC;
-import nl.patrick.HOPE.Module.Modules.Fullbright;
+import nl.patrick.HOPE.Module.Modules.*;
 
 import java.util.ArrayList;
 
@@ -17,6 +15,8 @@ public class ModuleManager {
         modules.add(new DiscordRPC());
         modules.add(new Fullbright());
         modules.add(new Arraylist());
+        modules.add(new Sprint());
+        modules.add(new NoSlow());
     }
 
     public ArrayList<Module> getModules() {
